@@ -1,0 +1,18 @@
+def mostrar_menu():
+    print("\n--- MENU DE OPERACIONES CON MATRICES ---")
+    print("1. Suma de matrices")
+    print("2. Multiplicación de matrices")
+    print("3. Producto de Hadamard")
+    print("4. Producto de Kronecker")
+    print("5. Salir")
+
+def pedir_opcion():
+    while True:
+        try:
+            opcion = int(input("Seleccione una opción: "))
+            if 1 <= opcion <= 5:
+                return opcion
+            else:
+                print("Error: opción no válida.")
+        except ValueError:
+            print("Error: debe ingresar un número entero.")
