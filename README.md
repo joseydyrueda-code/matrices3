@@ -5,4 +5,5 @@ El proposito principal del siguiente programa es realizar operaciones entre matr
 
 * En el tercer modulo (entrada.py) le permite al usuario ingresar dos matrices A y B de n dimensiones, para luego imprimir las dos matrices.
 * El cuarto y ultimo modulo es menu.py, donde le brinda cinco opciones al usuario sobre que operacion desea realizar, para escoger una, debe ingresar uno de los numeros que aparecen en el menu segun corresponda.
-la cuarta carpeta, llamada "solucion" contiene el programa ejecutado con todas las operaciones realizadas
+
+·*La cuarta carpeta, llamada "solucion" contiene el programa ejecutado con todas las operaciones realizadas
